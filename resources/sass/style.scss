@@ -1,0 +1,36 @@
+#app {
+  .navbar-dark {
+    .nav-link {
+      color: #ffffff !important;
+    }
+  }
+  .card-header {
+    .breadcrumb {
+      background: transparent;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .dashboard-link {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  #candidates_index {
+    .candidates-table-container {
+      overflow-x: auto;
+      margin-bottom: 1rem;
+    }
+    .candidates-table {
+      thead th {
+        border: none !important;
+      }
+    }
+    .pagination {
+      justify-content: flex-end;
+      margin-bottom: 0;
+    }
+  }
+}
+.no-decoration {
+  text-decoration: none !important;
+}
